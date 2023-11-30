@@ -31,3 +31,11 @@ body {
 }
 
 /* END */
+
+/* Best Sellers Styles */
+
+.best__sellers_container {
+  @apply flex justify-center
+}
+
+/* END */
