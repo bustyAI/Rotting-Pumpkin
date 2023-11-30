@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { HeadshotPhotos, JewelryCard, Navbar, BestSellers } from "@/components"
+import { HeadshotPhotos, JewelryCard, Navbar, BestSellers, Footer } from "@/components"
 
 export default function Home() {
   return (
@@ -17,9 +17,8 @@ export default function Home() {
         <div className="best__sellers_container">
           <BestSellers />
         </div>
-
-
       </div>
+      <Footer />
     </main>
   )
 }
