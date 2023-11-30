@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { CiMenuBurger, CiMenuFries, CiSearch } from 'react-icons/ci'
-import { BsCart4 } from 'react-icons/bs'
+import { TbShoppingBag } from 'react-icons/tb'
 
 const Navbar = () => {
     const [menuHover, setMenuHover] = useState(false)
@@ -17,7 +17,7 @@ const Navbar = () => {
                     </div>
                     <div className='flex space-x-6'>
                         <CiSearch className='h-12 w-12' />
-                        <BsCart4 className='h-12 w-12' />
+                        <TbShoppingBag className='h-12 w-12' />
                     </div>
 
 
