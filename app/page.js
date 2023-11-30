@@ -6,10 +6,13 @@ export default function Home() {
     <main className="overflow-hidden">
       <Navbar />
 
-      <div className="flex flex-col mt-44">
+      <div className="content__container">
         <HeadshotPhotos />
-        <div className='flex flex-row'>
-          <JewelryCard />
+        <div className='jewelry__card_container'>
+          <JewelryCard jewelry={'Earrings'} />
+          <JewelryCard jewelry={'Bracelets'} />
+          <JewelryCard jewelry={'Necklaces'} />
+          <JewelryCard jewelry={'Waist Beeds'} />
         </div>
 
       </div>
