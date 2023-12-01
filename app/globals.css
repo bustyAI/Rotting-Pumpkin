@@ -39,3 +39,46 @@ body {
 }
 
 /* END */
+
+/* Footer Styles */
+
+.footer {
+  @apply absolute bottom-0 w-full h-1/6 bg-gray-500
+}
+
+.footer__container {
+  @apply flex flex-col justify-evenly
+}
+
+.footer__links_container {
+  @apply flex flex-row justify-between mx-8
+}
+
+.footer__links {
+  @apply flex flex-col mx-8
+}
+
+.footer__title {
+  @apply text-3xl font-bold
+}
+
+.footer__help_link {
+  @apply text-2xl
+}
+
+.about {
+  @apply text-5xl mx-12
+}
+
+.about__description {
+  @apply text-xl font-light mx-12 my-2
+}
+
+.footer__foot {
+  @apply flex flex-row justify-around absolute bottom-20 w-full h-[100px] bg-gray-300
+}
+
+.icon {
+  @apply h-14 w-14
+}
+/* END */
