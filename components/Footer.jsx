@@ -22,11 +22,12 @@ const Footer = () => {
                     </div>
                     <div className='mx-12 my-12'>
                         <p className='about'>About Us</p>
-                        <p className='about__description'>
-                            Everything here at our store is hand made with love,
+                        <div className='about__description'>
+                            <p>Everything here at our store is hand made with love,</p>
                             <p>click this button to subscribe to our news letter, and</p>
-                            stay up to date when I make something new!
-                        </p>
+                            <p>stay up to date when I make something new!</p>
+
+                        </div>
                     </div>
                 </div>
                 <div className='footer__foot'>

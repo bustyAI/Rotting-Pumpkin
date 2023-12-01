@@ -16,7 +16,7 @@ body {
 
 /* Jewelry Card Styles */
 .jewelry__card_container {
-  @apply flex flex-row justify-center
+  @apply flex flex-row justify-center bg-gray-500 w-4/5 mx-auto
 }
 
 /* END */
