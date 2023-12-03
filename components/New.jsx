@@ -8,6 +8,10 @@ const New = () => {
             <p className='text-3xl font-light'>SHOP ALL NEW BUTTON</p>
             <div className='flex flex-row justify-center bg-gray-200 my-8'>
                 <NewCard title={'Bracelet'} material={'seed'} price={'$10'} />
+                <NewCard title={'Bracelet'} material={'seed'} price={'$10'} />
+                <NewCard title={'Bracelet'} material={'seed'} price={'$10'} />
+                <NewCard title={'Bracelet'} material={'seed'} price={'$10'} />
+                <NewCard title={'Bracelet'} material={'seed'} price={'$10'} />
             </div>
         </div>
     )
